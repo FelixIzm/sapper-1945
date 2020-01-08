@@ -1,0 +1,1 @@
+web: npx serve __sapper__/export
