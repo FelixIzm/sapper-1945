@@ -1,1 +1,1 @@
-web: npx serve __sapper__/export
+web: node __sapper__/build
