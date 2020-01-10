@@ -1,3 +1,6 @@
+<script>
+	import client from '../config/db.js';
+</script>
 <svelte:head>
 	<title>DataBase</title>
 </svelte:head>
