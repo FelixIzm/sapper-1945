@@ -1,6 +1,17 @@
 <script>
 	import Fetch from "./Fetch.svelte";
 </script>
+<script>
+	import Info from './Info.svelte';
+
+	const pkg = {
+		name: 'svelte',
+		version: 3,
+		speed: 'невероятно',
+		website: 'https://svelte.dev'
+	};
+</script>
+
 <svelte:head>
 	<title>DataBase</title>
 </svelte:head>
@@ -12,3 +23,4 @@
 <p>DataBase this.</p>
 
 <Fetch />
+<Info {...pkg}/>
