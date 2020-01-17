@@ -34,7 +34,7 @@ polka() // You can also use Express
 		sirv('static', { dev }),
 		sapper.middleware()
 	)
-        .get('/', cors(corsOptionsDelegate), function (req, res, next) {
+        .get('https://api-1945.herokuapp.com/', cors(corsOptionsDelegate), function (req, res, next) {
               res.json({msg: 'This is CORS-enabled for a whitelisted domain.'})
          })
 	.listen(PORT, err => {
