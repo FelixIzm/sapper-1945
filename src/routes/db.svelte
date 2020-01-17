@@ -1,7 +1,5 @@
 <script>
 	import Fetch from "./Fetch.svelte";
-</script>
-<script>
 	import Info from './Info.svelte';
 
 	const pkg = {
