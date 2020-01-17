@@ -10,8 +10,15 @@ polka() // You can also use Express
 	.use(
 		compression({ threshold: 0 }),
 		sirv('static', { dev }),
-		sapper.middleware()
+		//sapper.middleware()
+	        sapper.middleware({
+        	    session: (req, res) => ({
+                	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+	        })
+        })
+
 	)
 	.listen(PORT, err => {
 		if (err) console.log('error', err);
 	});
+//  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
