@@ -5,6 +5,6 @@
     const response = await fetch("https://api-145.herokuapp.com/");
     const json = await response.json();
     data = json;
-    console.log('onMount');
+    console.log(data);
   });
 </script>
