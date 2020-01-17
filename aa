@@ -1,0 +1,433 @@
+TODO@0.0.1 C:\Users\16796003\Project\sapper-1945
++-- @babel/core@7.7.7
+| +-- @babel/code-frame@7.5.5
+| | `-- @babel/highlight@7.5.0
+| |   +-- chalk@2.4.2 deduped
+| |   +-- esutils@2.0.3 deduped
+| |   `-- js-tokens@4.0.0
+| +-- @babel/generator@7.7.7
+| | +-- @babel/types@7.7.4 deduped
+| | +-- jsesc@2.5.2
+| | +-- lodash@4.17.15 deduped
+| | `-- source-map@0.5.7 deduped
+| +-- @babel/helpers@7.7.4
+| | +-- @babel/template@7.7.4 deduped
+| | +-- @babel/traverse@7.7.4 deduped
+| | `-- @babel/types@7.7.4 deduped
+| +-- @babel/parser@7.7.7
+| +-- @babel/template@7.7.4
+| | +-- @babel/code-frame@7.5.5 deduped
+| | +-- @babel/parser@7.7.7 deduped
+| | `-- @babel/types@7.7.4 deduped
+| +-- @babel/traverse@7.7.4
+| | +-- @babel/code-frame@7.5.5 deduped
+| | +-- @babel/generator@7.7.7 deduped
+| | +-- @babel/helper-function-name@7.7.4
+| | | +-- @babel/helper-get-function-arity@7.7.4 deduped
+| | | +-- @babel/template@7.7.4 deduped
+| | | `-- @babel/types@7.7.4 deduped
+| | +-- @babel/helper-split-export-declaration@7.7.4
+| | | `-- @babel/types@7.7.4 deduped
+| | +-- @babel/parser@7.7.7 deduped
+| | +-- @babel/types@7.7.4 deduped
+| | +-- debug@4.1.1
+| | | `-- ms@2.1.2
+| | +-- globals@11.12.0
+| | `-- lodash@4.17.15 deduped
+| +-- @babel/types@7.7.4
+| | +-- esutils@2.0.3
+| | +-- lodash@4.17.15 deduped
+| | `-- to-fast-properties@2.0.0
+| +-- convert-source-map@1.7.0
+| | `-- safe-buffer@5.1.2 deduped
+| +-- debug@4.1.1
+| | `-- ms@2.1.2
+| +-- json5@2.1.1
+| | `-- minimist@1.2.0
+| +-- lodash@4.17.15
+| +-- resolve@1.14.2
+| | `-- path-parse@1.0.6
+| +-- semver@5.7.1
+| `-- source-map@0.5.7
++-- @babel/plugin-syntax-dynamic-import@7.7.4
+| `-- @babel/helper-plugin-utils@7.0.0
++-- @babel/plugin-transform-runtime@7.7.6
+| +-- @babel/helper-module-imports@7.7.4
+| | `-- @babel/types@7.7.4 deduped
+| +-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- resolve@1.14.2 deduped
+| `-- semver@5.7.1 deduped
++-- @babel/preset-env@7.7.7
+| +-- @babel/helper-module-imports@7.7.4 deduped
+| +-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-proposal-async-generator-functions@7.7.4
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | +-- @babel/helper-remap-async-to-generator@7.7.4
+| | | +-- @babel/helper-annotate-as-pure@7.7.4 deduped
+| | | +-- @babel/helper-wrap-function@7.7.4
+| | | | +-- @babel/helper-function-name@7.7.4 deduped
+| | | | +-- @babel/template@7.7.4 deduped
+| | | | +-- @babel/traverse@7.7.4 deduped
+| | | | `-- @babel/types@7.7.4 deduped
+| | | +-- @babel/template@7.7.4 deduped
+| | | +-- @babel/traverse@7.7.4 deduped
+| | | `-- @babel/types@7.7.4 deduped
+| | `-- @babel/plugin-syntax-async-generators@7.7.4 deduped
+| +-- @babel/plugin-proposal-dynamic-import@7.7.4
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- @babel/plugin-syntax-dynamic-import@7.7.4 deduped
+| +-- @babel/plugin-proposal-json-strings@7.7.4
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- @babel/plugin-syntax-json-strings@7.7.4 deduped
+| +-- @babel/plugin-proposal-object-rest-spread@7.7.7
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- @babel/plugin-syntax-object-rest-spread@7.7.4 deduped
+| +-- @babel/plugin-proposal-optional-catch-binding@7.7.4
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- @babel/plugin-syntax-optional-catch-binding@7.7.4 deduped
+| +-- @babel/plugin-proposal-unicode-property-regex@7.7.7
+| | +-- @babel/helper-create-regexp-features-plugin@7.7.4
+| | | +-- @babel/helper-regex@7.5.5 deduped
+| | | `-- regexpu-core@4.6.0
+| | |   +-- regenerate@1.4.0
+| | |   +-- regenerate-unicode-properties@8.1.0
+| | |   | `-- regenerate@1.4.0 deduped
+| | |   +-- regjsgen@0.5.1
+| | |   +-- regjsparser@0.6.2
+| | |   | `-- jsesc@0.5.0
+| | |   +-- unicode-match-property-ecmascript@1.0.4
+| | |   | +-- unicode-canonical-property-names-ecmascript@1.0.4
+| | |   | `-- unicode-property-aliases-ecmascript@1.0.5
+| | |   `-- unicode-match-property-value-ecmascript@1.1.0
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-syntax-async-generators@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-syntax-dynamic-import@7.7.4 deduped
+| +-- @babel/plugin-syntax-json-strings@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-syntax-object-rest-spread@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-syntax-optional-catch-binding@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-syntax-top-level-await@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-arrow-functions@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-async-to-generator@7.7.4
+| | +-- @babel/helper-module-imports@7.7.4 deduped
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- @babel/helper-remap-async-to-generator@7.7.4 deduped
+| +-- @babel/plugin-transform-block-scoped-functions@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-block-scoping@7.7.4
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- lodash@4.17.15 deduped
+| +-- @babel/plugin-transform-classes@7.7.4
+| | +-- @babel/helper-annotate-as-pure@7.7.4
+| | | `-- @babel/types@7.7.4 deduped
+| | +-- @babel/helper-define-map@7.7.4
+| | | +-- @babel/helper-function-name@7.7.4 deduped
+| | | +-- @babel/types@7.7.4 deduped
+| | | `-- lodash@4.17.15 deduped
+| | +-- @babel/helper-function-name@7.7.4 deduped
+| | +-- @babel/helper-optimise-call-expression@7.7.4
+| | | `-- @babel/types@7.7.4 deduped
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | +-- @babel/helper-replace-supers@7.7.4
+| | | +-- @babel/helper-member-expression-to-functions@7.7.4
+| | | | `-- @babel/types@7.7.4 deduped
+| | | +-- @babel/helper-optimise-call-expression@7.7.4 deduped
+| | | +-- @babel/traverse@7.7.4 deduped
+| | | `-- @babel/types@7.7.4 deduped
+| | +-- @babel/helper-split-export-declaration@7.7.4 deduped
+| | `-- globals@11.12.0 deduped
+| +-- @babel/plugin-transform-computed-properties@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-destructuring@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-dotall-regex@7.7.7
+| | +-- @babel/helper-create-regexp-features-plugin@7.7.4 deduped
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-duplicate-keys@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-exponentiation-operator@7.7.4
+| | +-- @babel/helper-builder-binary-assignment-operator-visitor@7.7.4
+| | | +-- @babel/helper-explode-assignable-expression@7.7.4
+| | | | +-- @babel/traverse@7.7.4 deduped
+| | | | `-- @babel/types@7.7.4 deduped
+| | | `-- @babel/types@7.7.4 deduped
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-for-of@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-function-name@7.7.4
+| | +-- @babel/helper-function-name@7.7.4 deduped
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-literals@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-member-expression-literals@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-modules-amd@7.7.5
+| | +-- @babel/helper-module-transforms@7.7.5
+| | | +-- @babel/helper-module-imports@7.7.4 deduped
+| | | +-- @babel/helper-simple-access@7.7.4 deduped
+| | | +-- @babel/helper-split-export-declaration@7.7.4 deduped
+| | | +-- @babel/template@7.7.4 deduped
+| | | +-- @babel/types@7.7.4 deduped
+| | | `-- lodash@4.17.15 deduped
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- babel-plugin-dynamic-import-node@2.3.0
+| |   `-- object.assign@4.1.0
+| |     +-- define-properties@1.1.3 deduped
+| |     +-- function-bind@1.1.1 deduped
+| |     +-- has-symbols@1.0.1 deduped
+| |     `-- object-keys@1.1.1 deduped
+| +-- @babel/plugin-transform-modules-commonjs@7.7.5
+| | +-- @babel/helper-module-transforms@7.7.5 deduped
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | +-- @babel/helper-simple-access@7.7.4
+| | | +-- @babel/template@7.7.4 deduped
+| | | `-- @babel/types@7.7.4 deduped
+| | `-- babel-plugin-dynamic-import-node@2.3.0 deduped
+| +-- @babel/plugin-transform-modules-systemjs@7.7.4
+| | +-- @babel/helper-hoist-variables@7.7.4
+| | | `-- @babel/types@7.7.4 deduped
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- babel-plugin-dynamic-import-node@2.3.0 deduped
+| +-- @babel/plugin-transform-modules-umd@7.7.4
+| | +-- @babel/helper-module-transforms@7.7.5 deduped
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-named-capturing-groups-regex@7.7.4
+| | `-- @babel/helper-create-regexp-features-plugin@7.7.4 deduped
+| +-- @babel/plugin-transform-new-target@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-object-super@7.7.4
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- @babel/helper-replace-supers@7.7.4 deduped
+| +-- @babel/plugin-transform-parameters@7.7.7
+| | +-- @babel/helper-call-delegate@7.7.4
+| | | +-- @babel/helper-hoist-variables@7.7.4 deduped
+| | | +-- @babel/traverse@7.7.4 deduped
+| | | `-- @babel/types@7.7.4 deduped
+| | +-- @babel/helper-get-function-arity@7.7.4
+| | | `-- @babel/types@7.7.4 deduped
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-property-literals@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-regenerator@7.7.5
+| | `-- regenerator-transform@0.14.1
+| |   `-- private@0.1.8
+| +-- @babel/plugin-transform-reserved-words@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-shorthand-properties@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-spread@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-sticky-regex@7.7.4
+| | +-- @babel/helper-plugin-utils@7.0.0 deduped
+| | `-- @babel/helper-regex@7.5.5
+| |   `-- lodash@4.17.15 deduped
+| +-- @babel/plugin-transform-template-literals@7.7.4
+| | +-- @babel/helper-annotate-as-pure@7.7.4 deduped
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-typeof-symbol@7.7.4
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/plugin-transform-unicode-regex@7.7.4
+| | +-- @babel/helper-create-regexp-features-plugin@7.7.4 deduped
+| | `-- @babel/helper-plugin-utils@7.0.0 deduped
+| +-- @babel/types@7.7.4 deduped
+| +-- browserslist@4.8.3
+| | +-- caniuse-lite@1.0.30001019
+| | +-- electron-to-chromium@1.3.328
+| | `-- node-releases@1.1.44
+| |   `-- semver@6.3.0
+| +-- core-js-compat@3.6.2
+| | +-- browserslist@4.8.3 deduped
+| | `-- semver@7.0.0
+| +-- invariant@2.2.4
+| | `-- loose-envify@1.4.0
+| |   `-- js-tokens@4.0.0 deduped
+| +-- js-levenshtein@1.1.6
+| `-- semver@5.7.1 deduped
++-- @babel/runtime@7.7.7
+| `-- regenerator-runtime@0.13.3
++-- @rollup/plugin-commonjs@11.0.1
+| +-- @rollup/pluginutils@3.0.3
+| | `-- estree-walker@0.6.1 deduped
+| +-- estree-walker@0.6.1
+| +-- is-reference@1.1.4
+| | `-- @types/estree@0.0.39 deduped
+| +-- magic-string@0.25.5
+| | `-- sourcemap-codec@1.4.7 deduped
+| `-- resolve@1.14.2 deduped
++-- @rollup/plugin-json@4.0.1
+| `-- rollup-pluginutils@2.8.2
+|   `-- estree-walker@0.6.1 deduped
++-- @rollup/plugin-node-resolve@6.1.0
+| +-- @rollup/pluginutils@3.0.3 deduped
+| +-- @types/resolve@0.0.8
+| | `-- @types/node@13.1.4 deduped
+| +-- builtin-modules@3.1.0
+| +-- is-module@1.0.0
+| `-- resolve@1.14.2 deduped
++-- @rollup/plugin-replace@2.3.0
+| +-- magic-string@0.25.5 deduped
+| `-- rollup-pluginutils@2.8.2 deduped
++-- compression@1.7.4
+| +-- accepts@1.3.7
+| | +-- mime-types@2.1.26
+| | | `-- mime-db@1.43.0 deduped
+| | `-- negotiator@0.6.2
+| +-- bytes@3.0.0
+| +-- compressible@2.0.18
+| | `-- mime-db@1.43.0
+| +-- debug@2.6.9
+| | `-- ms@2.0.0
+| +-- on-headers@1.0.2
+| +-- safe-buffer@5.1.2
+| `-- vary@1.1.2
++-- cors@2.8.5
+| +-- object-assign@4.1.1
+| `-- vary@1.1.2 deduped
++-- npm-run-all@4.1.5
+| +-- ansi-styles@3.2.1
+| | `-- color-convert@1.9.3
+| |   `-- color-name@1.1.3
+| +-- chalk@2.4.2
+| | +-- ansi-styles@3.2.1 deduped
+| | +-- escape-string-regexp@1.0.5
+| | `-- supports-color@5.5.0
+| |   `-- has-flag@3.0.0
+| +-- cross-spawn@6.0.5
+| | +-- nice-try@1.0.5
+| | +-- path-key@2.0.1
+| | +-- semver@5.7.1 deduped
+| | +-- shebang-command@1.2.0
+| | | `-- shebang-regex@1.0.0
+| | `-- which@1.3.1
+| |   `-- isexe@2.0.0
+| +-- memorystream@0.3.1
+| +-- minimatch@3.0.4
+| | `-- brace-expansion@1.1.11
+| |   +-- balanced-match@1.0.0
+| |   `-- concat-map@0.0.1
+| +-- pidtree@0.3.0
+| +-- read-pkg@3.0.0
+| | +-- load-json-file@4.0.0
+| | | +-- graceful-fs@4.2.3
+| | | +-- parse-json@4.0.0
+| | | | +-- error-ex@1.3.2
+| | | | | `-- is-arrayish@0.2.1
+| | | | `-- json-parse-better-errors@1.0.2
+| | | +-- pify@3.0.0
+| | | `-- strip-bom@3.0.0
+| | +-- normalize-package-data@2.5.0
+| | | +-- hosted-git-info@2.8.5
+| | | +-- resolve@1.14.2 deduped
+| | | +-- semver@5.7.1 deduped
+| | | `-- validate-npm-package-license@3.0.4
+| | |   +-- spdx-correct@3.1.0
+| | |   | +-- spdx-expression-parse@3.0.0 deduped
+| | |   | `-- spdx-license-ids@3.0.5
+| | |   `-- spdx-expression-parse@3.0.0
+| | |     +-- spdx-exceptions@2.2.0
+| | |     `-- spdx-license-ids@3.0.5 deduped
+| | `-- path-type@3.0.0
+| |   `-- pify@3.0.0 deduped
+| +-- shell-quote@1.7.2
+| `-- string.prototype.padend@3.1.0
+|   +-- define-properties@1.1.3
+|   | `-- object-keys@1.1.1
+|   `-- es-abstract@1.17.0
+|     +-- es-to-primitive@1.2.1
+|     | +-- is-callable@1.1.5 deduped
+|     | +-- is-date-object@1.0.2
+|     | `-- is-symbol@1.0.3
+|     |   `-- has-symbols@1.0.1 deduped
+|     +-- function-bind@1.1.1
+|     +-- has@1.0.3
+|     | `-- function-bind@1.1.1 deduped
+|     +-- has-symbols@1.0.1
+|     +-- is-callable@1.1.5
+|     +-- is-regex@1.0.5
+|     | `-- has@1.0.3 deduped
+|     +-- object-inspect@1.7.0
+|     +-- object-keys@1.1.1 deduped
+|     +-- object.assign@4.1.0 deduped
+|     +-- string.prototype.trimleft@2.1.1
+|     | +-- define-properties@1.1.3 deduped
+|     | `-- function-bind@1.1.1 deduped
+|     `-- string.prototype.trimright@2.1.1
+|       +-- define-properties@1.1.3 deduped
+|       `-- function-bind@1.1.1 deduped
++-- pg@7.17.0
+| +-- buffer-writer@2.0.0
+| +-- packet-reader@1.0.0
+| +-- pg-connection-string@0.1.3
+| +-- pg-packet-stream@1.1.0
+| +-- pg-pool@2.0.9
+| +-- pg-types@2.2.0
+| | +-- pg-int8@1.0.1
+| | +-- postgres-array@2.0.0
+| | +-- postgres-bytea@1.0.0
+| | +-- postgres-date@1.0.4
+| | `-- postgres-interval@1.2.0
+| |   `-- xtend@4.0.2
+| +-- pgpass@1.0.2
+| | `-- split@1.0.1
+| |   `-- through@2.3.8
+| `-- semver@4.3.2
++-- polka@1.0.0-next.10
+| +-- @polka/url@1.0.0-next.9
+| `-- trouter@3.1.0
+|   `-- regexparam@1.3.0
++-- rollup@1.29.0
+| +-- @types/estree@0.0.39
+| +-- @types/node@13.1.4
+| `-- acorn@7.1.0
++-- rollup-plugin-babel@4.3.3
+| +-- @babel/helper-module-imports@7.7.4 deduped
+| `-- rollup-pluginutils@2.8.2 deduped
++-- rollup-plugin-json@4.0.0
+| `-- rollup-pluginutils@2.8.2 deduped
++-- rollup-plugin-svelte@5.1.1
+| +-- require-relative@0.8.7
+| +-- rollup-pluginutils@2.8.2 deduped
+| `-- sourcemap-codec@1.4.7
++-- rollup-plugin-terser@4.0.4
+| +-- @babel/code-frame@7.5.5 deduped
+| +-- jest-worker@24.9.0
+| | +-- merge-stream@2.0.0
+| | `-- supports-color@6.1.0
+| |   `-- has-flag@3.0.0 deduped
+| +-- serialize-javascript@1.9.1
+| `-- terser@3.17.0
+|   +-- commander@2.20.3
+|   +-- source-map@0.6.1
+|   `-- source-map-support@0.5.16
+|     +-- buffer-from@1.1.1
+|     `-- source-map@0.6.1
++-- sapper@0.27.9
+| +-- html-minifier@4.0.0
+| | +-- camel-case@3.0.0
+| | | +-- no-case@2.3.2
+| | | | `-- lower-case@1.1.4
+| | | `-- upper-case@1.1.3
+| | +-- clean-css@4.2.1
+| | | `-- source-map@0.6.1
+| | +-- commander@2.20.3 deduped
+| | +-- he@1.2.0
+| | +-- param-case@2.1.1
+| | | `-- no-case@2.3.2 deduped
+| | +-- relateurl@0.2.7
+| | `-- uglify-js@3.7.4
+| |   +-- commander@2.20.3 deduped
+| |   `-- source-map@0.6.1
+| +-- http-link-header@1.0.2
+| +-- shimport@1.0.1
+| +-- sourcemap-codec@1.4.7 deduped
+| `-- string-hash@1.1.3
++-- sirv@0.4.2
+| +-- @polka/url@0.5.0
+| `-- mime@2.4.4
+`-- svelte@3.16.7
+
