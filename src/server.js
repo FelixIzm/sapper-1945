@@ -7,7 +7,7 @@ var cors = require('cors')
 const { PORT, NODE_ENV } = process.env;
 const dev = NODE_ENV === 'development';
 
-var whitelist = ['https://api-1945.herokyapp.com']
+var whitelist = ['https://api-1945.herokuapp.com']
 var corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1 || !origin) {
