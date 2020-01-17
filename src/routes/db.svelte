@@ -1,5 +1,6 @@
 <script>
 	import Info from './Info_FX.svelte';
+	import { onMount } from "svelte";
 
 	const pkg = {
 		name: 'svelte',
