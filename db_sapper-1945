@@ -1,0 +1,3 @@
+=== sapper-1945 Config Vars
+DATABASE_URL: postgres://knhgniybaofvzc:b2dacdfe00bd9da51d7175fa138f399e531175a349932b6b32a73819258c2b0f@ec2-174-129-253-180.compute-1.amazonaws.com:5432/d11jmbefcqqs5r
+REDIS_URL:    redis://h:p9d38460a2fe86d2f24b91c60bfe79192f6f5713224ce35f1a782536af16ee591@ec2-54-152-118-90.compute-1.amazonaws.com:7379

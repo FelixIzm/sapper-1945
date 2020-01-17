@@ -1,5 +1,5 @@
 <script>
-  import Fetch from "./Fetch.svelte";
+	import Fetch from "./Fetch.svelte";
 </script>
 <svelte:head>
 	<title>DataBase</title>
