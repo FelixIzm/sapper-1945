@@ -1,5 +1,4 @@
 <script>
-	import Fetch from "./Fetch.svelte";
 	import Info from './Info.svelte';
 
 	const pkg = {
@@ -20,5 +19,4 @@
 
 <p>DataBase this.</p>
 
-<Fetch />
 <Info {...pkg}/>
