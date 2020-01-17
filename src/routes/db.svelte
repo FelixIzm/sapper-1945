@@ -1,5 +1,5 @@
 <script>
-	import Info from './Info.svelte';
+	import Info from './Info_FX.svelte';
 
 	const pkg = {
 		name: 'svelte',
