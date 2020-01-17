@@ -10,7 +10,7 @@ const dev = NODE_ENV === 'development';
 var whitelist = ['https://api-1945.herokyapp.com']
 var corsOptions = {
   origin: function (origin, callback) {
-    if (whitelist.indexOf(origin) !== -1) {
+    if (whitelist.indexOf(origin) !== -1 || !origin) {
       callback(null, true)
     } else {
       callback(new Error('Not allowed by CORS'))
