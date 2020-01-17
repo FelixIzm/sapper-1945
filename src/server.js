@@ -24,6 +24,9 @@ polka() // You can also use Express
 		sirv('static', { dev }),
 		sapper.middleware()
 	)
+        .get('/items/', cors(corsOptions), function (req, res, next) {
+              res.json({msg: 'This is CORS-enabled for a whitelisted domain.'})
+         })
 	.listen(PORT, err => {
 		if (err) console.log('error', err);
 	});
