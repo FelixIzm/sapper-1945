@@ -28,4 +28,4 @@
 
 <p>DataBase this.</p>
 
-<Info {...pkg}/>
+<Info {...data}/>
