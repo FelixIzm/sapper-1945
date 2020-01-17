@@ -6,7 +6,7 @@
 </script>
 
 <p>
-	Пакет <code>{name}</code> {speed} быстрый.
-	Загрузите версию {version} из <a href="https://www.npmjs.com/package/{name}">npm</a>
-	и узнайте о нем больше <a href={website}>тут</a>
+	РџР°РєРµС‚ <code>{name}</code> {speed} Р±С‹СЃС‚СЂС‹Р№.
+	Р—Р°РіСЂСѓР·РёС‚Рµ РІРµСЂСЃРёСЋ {version} РёР· <a href="https://www.npmjs.com/package/{name}">npm</a>
+	Рё СѓР·РЅР°Р№С‚Рµ Рѕ РЅРµРј Р±РѕР»СЊС€Рµ <a href={website}>С‚СѓС‚</a>
 </p>
